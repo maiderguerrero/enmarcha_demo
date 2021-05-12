@@ -1,4 +1,3 @@
-
 /*General */
 @font-face {
     font-family: 'Conv_CheltenhamStd-Bold';
@@ -907,7 +906,7 @@ strong {
 .popover-template .popover-content ul li, 
 .workspace ul li ul li, .cke_contents ul li, 
 .preview ul li {
-    padding-left: 17px;
+    padding-left: 36px;
 }
 
 
@@ -1057,7 +1056,7 @@ strong {
     font-weight: bold;
     text-align: right;
     position: absolute;
-    margin-left: 40px;
+    margin-left: -42px;
     font-family: sans-serif;
 }
 
@@ -1069,13 +1068,14 @@ strong {
 #actividad .popover-content .bck-ol-2 li, 
 #actividad .content .workspace ul li .bck-ol-2 li {
     counter-increment: bck-li-counter;
-    padding-left: 15px;
+    padding-left: 0px;
     position: relative;
     z-index: 0;
     color: #414141;
     font-size: 1.8rem;
     font-family: 'Conv_CheltenhamStd-Bold';
     text-align: left;
+    margin-left: -3px;
 }
 
 #actividad .content .cke_contents .bck-ol-2 li:before, 
@@ -1090,7 +1090,7 @@ strong {
     font-weight: bold;
     text-align: right;
     position: absolute;
-    margin-left: -3px;
+    margin-left: -42px;
     font-family: sans-serif;
     width: 30px;
  }
@@ -1102,7 +1102,7 @@ strong {
 #actividad .popover-content .bck-ol-3 li, 
 #actividad .content .workspace ul li .bck-ol-3 li {
     counter-increment: bck-li-counter;
-    padding-left: 13px;
+    padding-left: 0px;
     position: relative;
     z-index: 0;
     color: #414141;
@@ -1110,6 +1110,7 @@ strong {
     font-weight: bold;
     font-family: sans-serif;
     text-align: left;
+    margin-left: -4px;
 }
 
 #actividad .content .cke_contents ol.bck-ol-3 li:before, 
@@ -1124,7 +1125,7 @@ strong {
     font-weight: bold;
     text-align: right;
     position: absolute;
-    margin-left: 8px;
+    margin-left: -25px;
     font-family: sans-serif;
 }
 
@@ -1137,7 +1138,7 @@ strong {
 #actividad .popover-content .bck-ol-4 li, 
 #actividad .content .workspace ul li .bck-ol-4 li {
     counter-increment: bck-li-counter;
-    padding-left: 3px;
+    padding-left: 0px;
     position: relative;
     z-index: 0;
     color: #0560a0;
@@ -1145,7 +1146,7 @@ strong {
     font-weight: 100;
     text-align: left;
     margin-top: 5px;
-    margin-left: 6px;
+    margin-left: -4px;
     font-family: inherit;
     font-family: cursive;
 }
@@ -1169,7 +1170,7 @@ strong {
     font-weight: 800;
     text-align: right;
     position: absolute;
-    left: -22px;
+    margin-left: -30px;
     font-family: inherit;
     width: 20px;
 }
@@ -1182,7 +1183,7 @@ strong {
 #actividad .popover-content .bck-ol-5 li, 
 #actividad .content .workspace ul li .bck-ol-5 li {
     counter-increment: bck-li-counter;
-    padding-left: 15px;
+    padding-left: 0px;
     position: relative;
     z-index: 0;
     color: #171A00;
@@ -1190,6 +1191,7 @@ strong {
     font-weight: bold;
     font-family: 'Conv_CheltenhamStd-Book';
     text-align: left;
+    margin-left: -3px;
 }
 
 #actividad .content .cke_contents .bck-ol-5 li:before, 
@@ -1204,7 +1206,7 @@ strong {
     font-weight: bold;
     text-align: right;
     position: absolute;
-    margin-left: -24px;
+    margin-left: -42px;
     font-family: sans-serif;
     width: 30px;
 }
@@ -1525,7 +1527,7 @@ body:not(.edit) .bck-tabcontents .div-contents {
 
 
 .bck-box.bck-box-1 > .bck-content {
-    padding: 20px;
+    padding: 20px 30px;
     font-weight: 400;
     font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
     background-color: transparent;
@@ -1714,7 +1716,11 @@ body:not(.edit) .bck-tabcontents .div-contents {
    color: #007ba9;
    font-weight: bold;
    font-family: sans-serif;
-   padding: 10px;
+   padding: 10px 20px;
+}
+
+.bck-box.autoevaluacion > .bck-content {
+    padding: 0px 20px;
 }
 
 /*Caja 6 - coevaluacion*/
@@ -1732,14 +1738,18 @@ body:not(.edit) .bck-tabcontents .div-contents {
    color: #414141;
    font-weight: 400;
    font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
-   padding: 10px;
+   padding: 10px 20px;
+}
+
+.bck-box.coevaluacion > .bck-content {
+    padding: 0px 20px;
 }
 
 /*Caja 7 - heteroevaluacion*/
 
 .bck-box.heteroevaluacion {
     background-color: #FCFAEC;
-    padding: 0px;
+    padding: 10px;
     border: none;
     border-radius: 0px;
 }
@@ -1747,7 +1757,7 @@ body:not(.edit) .bck-tabcontents .div-contents {
 .bck-box.heteroevaluacion > .bck-title {
     margin-bottom: 0px;
     background-color: transparent;
-    padding: 10px 10px 10px 20px;
+    padding: 10px 20px;
 
 }
 
@@ -1759,9 +1769,17 @@ body:not(.edit) .bck-tabcontents .div-contents {
 
 .bck-box.laboratorio2 {
     background-color: #E1DFE4;
-    padding: 20px;
+    padding: 10px;
     border: none;
     border-radius: 0px;
+}
+
+bck-box.laboratorio2 > .bck-title {
+    padding: 10px 20px;
+}
+
+bck-box.laboratorio2 > .bck-content {
+    padding: 20px;
 }
 
 
