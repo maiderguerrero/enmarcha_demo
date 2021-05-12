@@ -1774,11 +1774,11 @@ body:not(.edit) .bck-tabcontents .div-contents {
     border-radius: 0px;
 }
 
-bck-box.laboratorio2 > .bck-title {
+.bck-box.laboratorio2 > .bck-title {
     padding: 10px 20px;
 }
 
-bck-box.laboratorio2 > .bck-content {
+.bck-box.laboratorio2 > .bck-content {
     padding: 20px;
 }
 
