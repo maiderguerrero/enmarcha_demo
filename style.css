@@ -2586,3 +2586,219 @@ table td.bck-td-dos {
         display: none;
     }
 }
+
+
+
+/*---------------------------------------COURSETAGS--------------------------------------------------------*/
+
+/*------------------------------------------Coursetag verde---------------------------------*/
+
+/*-------------------TOC - coursetag verde--------------------------*/
+
+.coursetag_sgel2021_enmarcha_verde #indice .units ul li.active:not(.disabled), 
+.coursetag_sgel2021_enmarcha_verde #indice .units ul li:focus:not(.disabled) {
+    background: #47b900;
+}
+
+
+.coursetag_sgel2021_enmarcha_verde #indice .units ul li.hover:not(.disabled), 
+.coursetag_sgel2021_enmarcha_verde #indice .units ul li:hover:not(.disabled), 
+.coursetag_sgel2021_enmarcha_verde #indice .units ul li:hover:not(.disabled) {
+    background: #a2dc85 !important;
+}
+
+
+.coursetag_sgel2021_enmarcha_verde #indice .actividades a:hover {
+    color: #47b900;
+}
+
+
+/*------------------------------Navbar - Coursetag verde-----------------------------*/
+
+.coursetag_sgel2021_enmarcha_verde.body_clase .vitamina-navbar {
+    background-color: #47b900;
+}
+
+
+/*------------------------------Menú lateral - coursetag verde------------------------------*/
+
+.coursetag_sgel2021_enmarcha_verde #book-index .col-main {
+    background: #47b900 !important;
+}
+
+.coursetag_sgel2021_enmarcha_verde .libro-left ul li a.book-index.active {
+    background-color: #47b900;
+}
+
+.coursetag_sgel2021_enmarcha_verde #book-index #indice .units ul li:not(.disabled) a:hover, 
+.coursetag_sgel2021_enmarcha_verde #book-index #indice .units ul li.active a {
+    color: #fff;
+    background: #47b900 !important;
+}
+
+.coursetag_sgel2021_enmarcha_verde #book-index #indice .unit-content .actividades .item:hover, 
+.coursetag_sgel2021_enmarcha_verde #book-index #indice .unit-content .actividades .item.active, 
+.coursetag_sgel2021_enmarcha_verde #book-index #indice .unit-content .actividades .item.current {
+    color: #fff;
+    background: #95d675 !important;
+}
+
+/*------------------------------------------Coursetag azul---------------------------------*/
+
+/*-------------------TOC - coursetag azul--------------------------*/
+
+.coursetag_sgel2021_enmarcha_azul #indice .units ul li.active:not(.disabled), 
+.coursetag_sgel2021_enmarcha_azul #indice .units ul li:focus:not(.disabled) {
+    background: #009cbc;
+}
+
+
+.coursetag_sgel2021_enmarcha_azul #indice .units ul li.hover:not(.disabled), 
+.coursetag_sgel2021_enmarcha_azul #indice .units ul li:hover:not(.disabled), 
+.coursetag_sgel2021_enmarcha_azul #indice .units ul li:hover:not(.disabled) {
+    background: #74cadc !important;
+}
+
+
+.coursetag_sgel2021_enmarcha_azul #indice .actividades a:hover {
+    color: #009cbc;
+}
+
+
+/*------------------------------Navbar - Coursetag azul-----------------------------*/
+
+.coursetag_sgel2021_enmarcha_azul.body_clase .vitamina-navbar {
+    background-color: #009cbc;
+}
+
+
+/*------------------------------Menú lateral - coursetag azul------------------------------*/
+
+.coursetag_sgel2021_enmarcha_azul #book-index .col-main {
+    background: #009cbc !important;
+}
+
+.coursetag_sgel2021_enmarcha_azul .libro-left ul li a.book-index.active {
+    background-color: #009cbc;
+}
+
+.coursetag_sgel2021_enmarcha_azul #book-index #indice .units ul li:not(.disabled) a:hover, 
+.coursetag_sgel2021_enmarcha_azul #book-index #indice .units ul li.active a {
+    color: #fff;
+    background: #009cbc !important;
+}
+
+
+.coursetag_sgel2021_enmarcha_azul #book-index #indice .unit-content .actividades .item:hover, 
+.coursetag_sgel2021_enmarcha_azul #book-index #indice .unit-content .actividades .item.active, 
+.coursetag_sgel2021_enmarcha_azul #book-index #indice .unit-content .actividades .item.current {
+    color: #fff;
+    background: #64bfd2 !important;
+}
+
+
+
+/*------------------------------------------Coursetag morado---------------------------------*/
+
+/*-------------------TOC - coursetag morado--------------------------*/
+
+.coursetag_sgel2021_enmarcha_morado #indice .units ul li.active:not(.disabled), 
+.coursetag_sgel2021_enmarcha_morado #indice .units ul li:focus:not(.disabled) {
+    background: #ff8000;
+}
+
+
+.coursetag_sgel2021_enmarcha_morado #indice .units ul li.hover:not(.disabled), 
+.coursetag_sgel2021_enmarcha_morado #indice .units ul li:hover:not(.disabled), 
+.coursetag_sgel2021_enmarcha_morado #indice .units ul li:hover:not(.disabled) {
+    background: #d38fb8 !important;
+}
+
+
+.coursetag_sgel2021_enmarcha_morado #indice .actividades a:hover {
+    color: #ff8000;
+}
+
+
+/*------------------------------Navbar - Coursetag morado-----------------------------*/
+
+.coursetag_sgel2021_enmarcha_morado.body_clase .vitamina-navbar {
+    background-color: #ff8000;
+}
+
+
+/*------------------------------Menú lateral - coursetag morado------------------------------*/
+
+.coursetag_sgel2021_enmarcha_morado #book-index .col-main {
+    background: #ff8000 !important;
+}
+
+.coursetag_sgel2021_enmarcha_morado .libro-left ul li a.book-index.active {
+    background-color: #ff8000;
+}
+
+.coursetag_sgel2021_enmarcha_morado #book-index #indice .units ul li:not(.disabled) a:hover, 
+.coursetag_sgel2021_enmarcha_morado #book-index #indice .units ul li.active a {
+    color: #fff;
+    background: #ff8000 !important;
+}
+
+.coursetag_sgel2021_enmarcha_morado #book-index #indice .unit-content .actividades .item:hover, 
+.coursetag_sgel2021_enmarcha_morado #book-index #indice .unit-content .actividades .item.active, 
+.coursetag_sgel2021_enmarcha_morado #book-index #indice .unit-content .actividades .item.current {
+    color: #fff;
+    background: #d38fb8 !important;
+}
+
+
+/*------------------------------------------Coursetag naranja---------------------------------*/
+
+/*-------------------TOC - coursetag naranja--------------------------*/
+
+.coursetag_sgel2021_enmarcha_naranja #indice .units ul li.active:not(.disabled), 
+.coursetag_sgel2021_enmarcha_naranja #indice .units ul li:focus:not(.disabled) {
+    background: #ff8000;
+}
+
+
+.coursetag_sgel2021_enmarcha_naranja #indice .units ul li.hover:not(.disabled), 
+.coursetag_sgel2021_enmarcha_naranja #indice .units ul li:hover:not(.disabled), 
+.coursetag_sgel2021_enmarcha_naranja #indice .units ul li:hover:not(.disabled) {
+    background: #fbb770 !important;
+}
+
+
+.coursetag_sgel2021_enmarcha_naranja #indice .actividades a:hover {
+    color: #ff8000;
+}
+
+
+/*------------------------------Navbar - Coursetag naranja-----------------------------*/
+
+.coursetag_sgel2021_enmarcha_naranja.body_clase .vitamina-navbar {
+    background-color: #ff8000;
+}
+
+
+/*------------------------------Menú lateral - coursetag naranja------------------------------*/
+
+.coursetag_sgel2021_enmarcha_naranja #book-index .col-main {
+    background: #ff8000 !important;
+}
+
+.coursetag_sgel2021_enmarcha_naranja .libro-left ul li a.book-index.active {
+    background-color: #ff8000;
+}
+
+.coursetag_sgel2021_enmarcha_naranja #book-index #indice .units ul li:not(.disabled) a:hover, 
+.coursetag_sgel2021_enmarcha_naranja #book-index #indice .units ul li.active a {
+    color: #fff;
+    background: #ff8000 !important;
+}
+
+.coursetag_sgel2021_enmarcha_naranja #book-index #indice .unit-content .actividades .item:hover, 
+.coursetag_sgel2021_enmarcha_naranja #book-index #indice .unit-content .actividades .item.active, 
+.coursetag_sgel2021_enmarcha_naranja #book-index #indice .unit-content .actividades .item.current {
+    color: #fff;
+    background: #fbb770 !important;
+}
