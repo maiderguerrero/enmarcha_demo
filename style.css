@@ -2704,7 +2704,7 @@ table td.bck-td-dos {
 
 .coursetag_sgel2021_enmarcha_morado #indice .units ul li.active:not(.disabled), 
 .coursetag_sgel2021_enmarcha_morado #indice .units ul li:focus:not(.disabled) {
-    background: #ff8000;
+    background: #B6347D;
 }
 
 
@@ -2716,31 +2716,31 @@ table td.bck-td-dos {
 
 
 .coursetag_sgel2021_enmarcha_morado #indice .actividades a:hover {
-    color: #ff8000;
+    color: #B6347D;
 }
 
 
 /*------------------------------Navbar - Coursetag morado-----------------------------*/
 
 .coursetag_sgel2021_enmarcha_morado.body_clase .enmarcha_demo-navbar {
-    background-color: #ff8000;
+    background-color: #B6347D;
 }
 
 
 /*------------------------------Menú lateral - coursetag morado------------------------------*/
 
 .coursetag_sgel2021_enmarcha_morado #book-index .col-main {
-    background: #ff8000 !important;
+    background: #B6347D !important;
 }
 
 .coursetag_sgel2021_enmarcha_morado .libro-left ul li a.book-index.active {
-    background-color: #ff8000;
+    background-color: #B6347D;
 }
 
 .coursetag_sgel2021_enmarcha_morado #book-index #indice .units ul li:not(.disabled) a:hover, 
 .coursetag_sgel2021_enmarcha_morado #book-index #indice .units ul li.active a {
     color: #fff;
-    background: #ff8000 !important;
+    background: #B6347D !important;
 }
 
 .coursetag_sgel2021_enmarcha_morado #book-index #indice .unit-content .actividades .item:hover, 
